@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume - Chaithra Narasimhaswamy</title>
+<style>
+    @page { size: A4; margin: 10mm; }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+    .resume-container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 0px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        position: relative;
+    }
+    .pdf-header, .pdf-footer {
+        text-align: center;
+        font-size: 12px;
+    }
+    .pdf-header h1 {
+        margin: 0;
+        font-size: 20px;
+        color: #2c3e50;
+    }
+    .pdf-header p, .pdf-footer p {
+        margin: 4px 0;
+        font-size: 12px;
+        color: #555;
+    }
+    .pdf-footer {
+        position: fixed(footer);
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 3px solid #2c3e50;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 32px;
+        color: #2c3e50;
+    }
+    .contact-info {
+        font-size: 14px;
+        text-align: right;
+        color: #555;
+    }
+    .photo-placeholder {
+    overflow: hidden;    
+    border-radius: 50%;     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bbb; 
+    width: 120px;
+    height: 120px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-left: -50px;
+}
+
+.photo-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     /* Key: makes the image fill and crop nicely */
+}
+    .section {
+        margin-bottom: 20px;
+    }
+    .section h2 {
+        font-size: 18px;
+        color: #2c3e50;
+        border-bottom: 2px solid #ecf0f1;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    .section p, .section ul {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    ul.skills, ul.accomplishments {
+        padding-left: 20px;
+    }
+    .work-item {
+        margin-bottom: 12px;
+    }
+    .work-item h3 {
+        margin: 0;
+        font-size: 15px;
+        font-weight: bold;
+        color: #2980b9;
+    }
+    .work-item span {
+        font-size: 13px;
+        color: #777;
+    }
+    .work-item p {
+        margin: 5px 0 0 0;
+    }
+
+    /* Optional: Ensure footer prints at bottom of each page */
+    @media print {
+        .pdf-footer {
+            position: fixed;
+            bottom: 10;
+            width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+
+<!-- PDF Header -->
+<div class="pdf-header">
+    <P>Resume - Chaithra Narasimhaswamy - Full Stack Web Developer</P>
+    <!-- <p>Full Stack Web Developer | Frankfurt am Main, Germany | chaithra.ediga@gmail.com | +49 152 1874 5643</p> -->
+</div>
+
+<div class="resume-container">
+
+    <div class="header">
+        <div>
+            <h1>Chaithra Narasimhaswamy</h1>
+            <div class="contact-info">
+                📧 chaithra.ediga@gmail.com | 📞 +49 152 1874 5643 <br>
+                📍 Frankfurt am Main, Germany <br>
+                📧 linkedin.com/in/chaithraediga
+            </div>
+        </div>
+        <div class="photo-placeholder">
+            <img src = "src/assets/images/ProfilePhoto.png" alt="ProfilePhoto"/>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>Full Stack Web Developer with almost 10 years of experience in healthcare and fintech, specializing in C# and .NET for scalable front-end and back-end solutions. Proven track record of launching impactful features, boosting performance, and reducing operational costs.</p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>C# .Net MVC, .Net Core, Web APIs, Microservices, ADO.Net, LINQ, Entity Framework</li>
+            <li>Angular, React, Typescript, HTML, CSS, Bootstrap, JQuery, JavaScript</li>
+            <li>SQL Server, CosmosDB, MongoDB, SSIS, SSRS</li>
+            <li>Azure cloud infrastructure, Azure DevOps CI/CD</li>
+            <li>Production deployments, monitoring, debugging</li>
+            <li>Event Sourcing (Event Store), DDD, CQRS</li>
+            <li>DevOps, Git, TFS, CI/CD, Terraform, Azure</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Work Experience</h2>
+        <div class="work-item">
+            <h3>Senior Software Engineer | Sinovo Health Solutions GmbH</h3>
+            <span>March 2023 – Present</span>
+            <p>Designed and developed scalable web applications with API and database integration, while contributing to system architecture and solution design. Collaborated with cross-functional teams to improve operational efficiency, code quality, and application performance.</p>
+        </div>
+        <div class="work-item">
+            <h3>Subject Matter Expert | ALDI Digital Services GmbH</h3>
+            <span>June 2022 – Dec 2022</span>
+            <p>Monitored infrastructure and security using New Relic. Handled incident management, testing, and UAT while troubleshooting complex issues and advising stakeholders to ensure system stability and compliance with industry best practices.</p>
+        </div>
+        <div class="work-item">
+            <h3>Software Developer | Deloitte Consulting GmbH</h3>
+            <span>Jan 2022 – May 2022</span>
+            <p>Developed web applications for internal project using Angular 8, Typescript, C#, .Net Core, SQL Server. Automated CI/CD pipelines using Azure DevOps, Terraform, and Packer.</p>
+        </div>
+        <div class="work-item">
+            <h3>Software Developer | PM International AG</h3>
+            <span>Nov 2020 – Dec 2021</span>
+            <p>Development and maintenance focusing on enhancing user experience, optimizing performance, and supporting e-commerce functionality for the global health and wellness brand.
+                 Implemented C# .Net Core applications with Docker, RabbitMQ, and Event Store. Developed APIs following DDD and CQRS patterns.</p>
+        </div>
+        <div class="work-item">
+            <h3>Assistant Manager | Deloitte Touche Tohmatsu Services</h3>
+            <span>Nov 2018 – June 2020</span>
+            <p>Designed landing pages, dashboards, and web apps using Angular 8 and .Net. Improved security protocols, reducing risks by 30%.</p>
+        </div>
+        <div class="work-item">
+            <h3>Software Developer | Robert Bosch Engineering & Business Solutions</h3>
+            <span>Jan 2016 – Nov 2018</span>
+            <p>Developed web applications and maintained legacy code. Trained team members and introduced agile best practices.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <p><b>B.E., Computer Science</b> – Visvesvaraya Technological University, Belgaum, 2015 (GPA: 76)</p>
+        <p><b>Diploma, Computer Science & Engineering</b> – Board of Technical Education, Bangalore, 2012 (GPA: 84)</p>
+    </div>
+
+    <div class="section">
+        <h2>Accomplishments</h2>
+        <ul class="accomplishments">
+            <li>Recognition and awards for professional excellence from clients.</li>
+            <li>Excellence award, Pat on the Back and many more.</li>
+            <li>State Level Winner of Paper Presentation on “Google Glass.”</li>
+        </ul>
+    </div>
+<br>
+</div>
+
+<!-- PDF Footer -->
+<div class="pdf-footer">
+    <hr>
+    <p>Portfolio: <a href="https://chaithra-portfolio.com">chaithra-portfolio.com</a> | LinkedIn: <a href="https://www.linkedin.com/in/chaithraediga">linkedin.com/in/chaithraediga</a></p>
+</div>
+
+</body>
+</html>

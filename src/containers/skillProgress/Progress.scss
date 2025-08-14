@@ -20,7 +20,7 @@
   overflow: hidden;
 }
 .skill {
-  line-height: 3.5vw;
+  line-height: .5vw;
 }
 .skill-bars {
   font-size: 28px;
@@ -33,12 +33,17 @@
   margin: 0px auto;
   margin-top: 2rem;
 }
-.skills-container > * {
-  flex: 1;
-  margin-bottom: 30px;
+.skills-container > .skills-bar {
+  flex: 0 0 70%; /* progress bars at least 70% */
+}
+.skills-container > .skills-image {
+  flex: 0 0 40%; /* image/SVG takes 30% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .skills-image > img {
-  margin-left: 80px;
+  margin-left: 10px;
   max-width: 90%;
   height: auto;
 }

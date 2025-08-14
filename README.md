@@ -186,7 +186,7 @@ const blogSection = { .... }
 
 const contactInfo = { .... }
 
-const twitterDetails = { ... }
+// const twitterDetails = { ... }
 
 ```
 #### Resume upload
@@ -204,9 +204,9 @@ You can choose a Lottie and download it in json format from sites like [this](ht
 Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
 
 ```javascript
-const twitterDetails = {
-  userName : "Your Twitter Username"
-};
+// const twitterDetails = {
+//   userName : "Your Twitter Username"
+// };
 ```
 Note: Don't use `@` symbol when adding username.
 
