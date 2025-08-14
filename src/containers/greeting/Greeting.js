@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 // import landingPerson from "../../assets/lottie/landingPerson";
 // import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import landingGif from '../../assets/lottie/landing.gif';
+import landingMp4 from '../../assets/lottie/landing.mp4';
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { illustration, greeting } from "../../portfolio";
@@ -54,11 +54,21 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-              <img
+              {/* <img
                 alt="developer at work"
                 src={landingGif}
                 className="landing-gif"
-              />            
+              />             */}
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline                  
+                  className="landing-gif"
+                >
+                  <source src={landingMp4} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
           </div>
         </div>
       </div>

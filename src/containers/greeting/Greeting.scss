@@ -43,20 +43,23 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 65px;
   line-height: 1.1;
   color: $textColor !important;
 }
 
 .greeting-text-p {
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 25px;
+  line-height: 35px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+.greeting-image-div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;     /* crop excess video outside the circle */
+  border-radius: 50%;   /* makes container oval */
 }
+
 
 .wave-emoji {
   animation-duration: 1.8s;
@@ -68,11 +71,12 @@
 
 .landing-gif {
   width: 100%;
-  height: 100%;  
-  max-width: 420px;
+  height: auto;  
+  max-width: 100%;
   height: auto;
   border-radius: 50% ; /* makes it oval */
   object-fit: cover;
+  display: block;     
 }
 
 
