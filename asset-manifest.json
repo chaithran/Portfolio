@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0d3ce13b.css",
+    "main.js": "/Portfolio/static/js/main.e94cecd1.js",
+    "static/css/487.bf7b55ff.chunk.css": "/Portfolio/static/css/487.bf7b55ff.chunk.css",
+    "static/js/487.6e7193fc.chunk.js": "/Portfolio/static/js/487.6e7193fc.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/Portfolio/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.010cba66.chunk.js": "/Portfolio/static/js/990.010cba66.chunk.js",
+    "static/media/landing.mp4": "/Portfolio/static/media/landing.c49f1363ed17832b1cff.mp4",
+    "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/Aldi.png": "/Portfolio/static/media/Aldi.a23ab5b18a9490e57afc.png",
+    "static/media/Sinovo.jpg": "/Portfolio/static/media/Sinovo.f70747e07b04da596f4d.jpg",
+    "static/media/contactMailDark.svg": "/Portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/Portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/Bosch.png": "/Portfolio/static/media/Bosch.9260a6ca61e46ec8ef65.png",
+    "static/media/VTU.jpg": "/Portfolio/static/media/VTU.1321f58146cca615ed60.jpg",
+    "static/media/BTE.jpg": "/Portfolio/static/media/BTE.5e2a4f50be19e4cc2ce9.jpg",
+    "static/media/skill.svg": "/Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.0d3ce13b.css.map": "/Portfolio/static/css/main.0d3ce13b.css.map",
+    "main.e94cecd1.js.map": "/Portfolio/static/js/main.e94cecd1.js.map",
+    "487.bf7b55ff.chunk.css.map": "/Portfolio/static/css/487.bf7b55ff.chunk.css.map",
+    "487.6e7193fc.chunk.js.map": "/Portfolio/static/js/487.6e7193fc.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/Portfolio/static/css/990.c6a7ee28.chunk.css.map",
+    "990.010cba66.chunk.js.map": "/Portfolio/static/js/990.010cba66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d3ce13b.css",
+    "static/js/main.e94cecd1.js"
+  ]
+}
